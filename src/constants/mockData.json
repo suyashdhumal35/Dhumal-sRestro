@@ -1,0 +1,232 @@
+{
+    "data": {
+      "cards": [
+        {
+          "card": {
+            "card": {
+              "info": {
+                "name": "Pizza Place",
+                "cuisines": ["Italian", "Pizza", "Fast Food"],
+                "costForTwoMessage": "₹ 400 for two"
+              }
+            }
+          }
+        },
+        {
+          "card": {
+            "card": {
+              "info": {
+                "variantsV2": {
+                  "variantGroups": [
+                    {
+                      "variations": [
+                        {
+                          "name": "Margherita Pizza",
+                          "defaultPrice": 20000,
+                          "description": "Classic Margherita Pizza with cheese",
+                          "imageId": "pizza_image_id"
+                        },
+                        {
+                          "name": "Pepperoni Pizza",
+                          "defaultPrice": 22000,
+                          "description": "Spicy pepperoni with cheese and tomato sauce",
+                          "imageId": "pepperoni_image_id"
+                        },
+                        {
+                          "name": "Veggie Pizza",
+                          "defaultPrice": 21000,
+                          "description": "A vegetarian pizza with a variety of vegetables",
+                          "imageId": "veggie_image_id"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "card": {
+            "card": {
+              "info": {
+                "name": "Burger World",
+                "cuisines": ["American", "Burgers", "Fast Food"],
+                "costForTwoMessage": "₹ 350 for two"
+              }
+            }
+          }
+        },
+        {
+          "card": {
+            "card": {
+              "info": {
+                "variantsV2": {
+                  "variantGroups": [
+                    {
+                      "variations": [
+                        {
+                          "name": "Cheese Burger",
+                          "defaultPrice": 15000,
+                          "description": "A juicy beef patty with melted cheese",
+                          "imageId": "cheese_burger_image_id"
+                        },
+                        {
+                          "name": "Chicken Burger",
+                          "defaultPrice": 16000,
+                          "description": "Grilled chicken patty with fresh veggies",
+                          "imageId": "chicken_burger_image_id"
+                        },
+                        {
+                          "name": "Veg Burger",
+                          "defaultPrice": 14000,
+                          "description": "A tasty veggie patty with mayonnaise and lettuce",
+                          "imageId": "veg_burger_image_id"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "card": {
+            "card": {
+              "info": {
+                "name": "Sushi Express",
+                "cuisines": ["Japanese", "Sushi", "Asian"],
+                "costForTwoMessage": "₹ 700 for two"
+              }
+            }
+          }
+        },
+        {
+          "card": {
+            "card": {
+              "info": {
+                "variantsV2": {
+                  "variantGroups": [
+                    {
+                      "variations": [
+                        {
+                          "name": "California Roll",
+                          "defaultPrice": 35000,
+                          "description": "Sushi rolls with crab, avocado, and cucumber",
+                          "imageId": "california_roll_image_id"
+                        },
+                        {
+                          "name": "Salmon Nigiri",
+                          "defaultPrice": 40000,
+                          "description": "Fresh salmon served on top of sushi rice",
+                          "imageId": "salmon_nigiri_image_id"
+                        },
+                        {
+                          "name": "Vegetable Maki",
+                          "defaultPrice": 30000,
+                          "description": "Maki rolls filled with fresh vegetables",
+                          "imageId": "vegetable_maki_image_id"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "card": {
+            "card": {
+              "info": {
+                "name": "Taco Bell",
+                "cuisines": ["Mexican", "Tacos", "Fast Food"],
+                "costForTwoMessage": "₹ 500 for two"
+              }
+            }
+          }
+        },
+        {
+          "card": {
+            "card": {
+              "info": {
+                "variantsV2": {
+                  "variantGroups": [
+                    {
+                      "variations": [
+                        {
+                          "name": "Classic Taco",
+                          "defaultPrice": 12000,
+                          "description": "Soft corn taco with seasoned beef and cheese",
+                          "imageId": "classic_taco_image_id"
+                        },
+                        {
+                          "name": "Chicken Taco",
+                          "defaultPrice": 13000,
+                          "description": "Taco with grilled chicken, lettuce, and salsa",
+                          "imageId": "chicken_taco_image_id"
+                        },
+                        {
+                          "name": "Veg Taco",
+                          "defaultPrice": 11000,
+                          "description": "Taco with roasted veggies, lettuce, and cheese",
+                          "imageId": "veg_taco_image_id"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "card": {
+            "card": {
+              "info": {
+                "name": "Pasta House",
+                "cuisines": ["Italian", "Pasta", "European"],
+                "costForTwoMessage": "₹ 550 for two"
+              }
+            }
+          }
+        },
+        {
+          "card": {
+            "card": {
+              "info": {
+                "variantsV2": {
+                  "variantGroups": [
+                    {
+                      "variations": [
+                        {
+                          "name": "Spaghetti Carbonara",
+                          "defaultPrice": 25000,
+                          "description": "Classic Italian pasta with cream and pancetta",
+                          "imageId": "carbonara_image_id"
+                        },
+                        {
+                          "name": "Penne Arrabbiata",
+                          "defaultPrice": 23000,
+                          "description": "Penne pasta in spicy tomato sauce",
+                          "imageId": "arrabbiata_image_id"
+                        },
+                        {
+                          "name": "Vegetarian Lasagna",
+                          "defaultPrice": 27000,
+                          "description": "Lasagna with ricotta, spinach, and marinara sauce",
+                          "imageId": "vegetarian_lasagna_image_id"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+  

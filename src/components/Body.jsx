@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { restaurantData } from "../constants/data";
+import RestaurantCard from "./RestaurantCard";
 
 const Body = () => {
     const [searchText, setSearchText] = useState("");
@@ -13,9 +14,7 @@ const Body = () => {
     });
 
     return (
-
         <div className="max-w-screen-xl mx-auto px-4 py-8 cursor-pointer">
-
             <h1 className="text-3xl font-bold mb-6 text-center">Restaurants</h1>
 
             {/* Search and Top Restaurant Button */}
@@ -35,41 +34,11 @@ const Body = () => {
                 </button>
             </div>
 
-
-
             {/* Restaurant Grid */}
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                 {filteredRestaurants.length > 0 ? (
                     filteredRestaurants.map((restaurant) => (
-                        <div key={restaurant.id} className="bg-white shadow-lg rounded-lg overflow-hidden relative w-full transform transition duration-300 hover:scale-105 hover:shadow-2xl">
-                            <div className="relative">
-                                <img
-                                    src={restaurant.imageUrl}
-                                    alt={restaurant.name}
-                                    className="w-full h-64 object-cover"
-                                />
-                                {restaurant.promotion && (
-                                    <span className="absolute top-2 left-0 bg-orange-500 text-white px-4 py-1 text-sm font-bold uppercase shadow-md">
-                                        ⭐ Promotion
-                                    </span>
-                                )}
-                            </div>
-                            <div className="p-4 flex flex-col justify-between ">
-                                <div>
-                                    <div className="flex justify-between items-center">
-                                        <h2 className="text-xl font-semibold">{restaurant.name}</h2>
-                                        <span className="bg-green-500 text-white px-3 py-1 text-sm rounded-md">
-                                            ⭐ {restaurant.rating}
-                                        </span>
-                                    </div>
-                                    <p className="text-gray-600">{restaurant.cuisines.join(", ")}</p>
-                                </div>
-                                <div className="flex justify-between items-center mt-4">
-                                    <p className="text-gray-500">{restaurant.deliveryTime}</p>
-                                    <p className="text-green-500 font-bold">{restaurant.costForTwoMessage}</p>
-                                </div>
-                            </div>
-                        </div>
+                        <RestaurantCard key={restaurant.id} restaurant={restaurant} />
                     ))
                 ) : (
                     <p className="text-center text-gray-500 col-span-4">No restaurants found.</p>

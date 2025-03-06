@@ -1,10 +1,13 @@
-import React, { useState } from "react";
-import { restaurantData } from "../constants/data";
-
+import { useNavigate } from "react-router-dom";
 
 const RestaurantCard = ({ restaurant }) => {
+  const navigate = useNavigate();
+
   return (
-    <div className="bg-white shadow-lg rounded-lg overflow-hidden relative w-full transform transition duration-300 hover:scale-105 hover:shadow-2xl">
+    <div
+      className="bg-white shadow-lg rounded-lg overflow-hidden relative w-full transform transition duration-300 hover:scale-105 hover:shadow-2xl cursor-pointer"
+      onClick={() => navigate(`/restaurant/${restaurant?.id}`)} // Navigate to details page
+    >
       <div className="relative">
         <img
           src={restaurant.imageUrl}
@@ -35,4 +38,5 @@ const RestaurantCard = ({ restaurant }) => {
     </div>
   );
 };
+
 export default RestaurantCard;

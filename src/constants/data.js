@@ -16,7 +16,7 @@ export const restaurantData = [
                 price: 300,
                 category: "Veg",
                 servedBy: "2-3",
-                imageUrl: "https://source.unsplash.com/400x300/?pizza"
+                imageUrl: "https://plus.unsplash.com/premium_photo-1691911162192-f4a5cd1b7403?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGl6enphfGVufDB8fDB8fHww"
             },
             {
                 name: "Spaghetti Aglio e Olio",
@@ -24,7 +24,7 @@ export const restaurantData = [
                 price: 250,
                 category: "Veg",
                 servedBy: "1-2",
-                imageUrl: "https://source.unsplash.com/400x300/?spaghetti"
+                imageUrl: "https://plus.unsplash.com/premium_photo-1691911162192-f4a5cd1b7403?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGl6enphfGVufDB8fDB8fHww"
             },
             {
                 name: "Veg Lasagna",
@@ -32,7 +32,7 @@ export const restaurantData = [
                 price: 350,
                 category: "Veg",
                 servedBy: "2-3",
-                imageUrl: "https://source.unsplash.com/400x300/?lasagna"
+                imageUrl: "https://plus.unsplash.com/premium_photo-1691911162192-f4a5cd1b7403?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGl6enphfGVufDB8fDB8fHww"
             }
         ],
 
@@ -43,7 +43,7 @@ export const restaurantData = [
                 price: 400,
                 category: "Non-Veg",
                 servedBy: "2-3",
-                imageUrl: "https://source.unsplash.com/400x300/?chickenlasagna"
+                imageUrl: "https://plus.unsplash.com/premium_photo-1691911162192-f4a5cd1b7403?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGl6enphfGVufDB8fDB8fHww"
             },
             {
                 name: "Pepperoni Pizza",
@@ -51,7 +51,7 @@ export const restaurantData = [
                 price: 350,
                 category: "Non-Veg",
                 servedBy: "2-3",
-                imageUrl: "https://source.unsplash.com/400x300/?pepperonipizza"
+                imageUrl: "https://plus.unsplash.com/premium_photo-1691911162192-f4a5cd1b7403?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGl6enphfGVufDB8fDB8fHww"
             },
             {
                 name: "Chicken Manchurian",
@@ -59,7 +59,7 @@ export const restaurantData = [
                 price: 280,
                 category: "Non-Veg",
                 servedBy: "1-2",
-                imageUrl: "https://source.unsplash.com/400x300/?chickenmanchurian"
+                imageUrl: "https://plus.unsplash.com/premium_photo-1691911162192-f4a5cd1b7403?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGl6enphfGVufDB8fDB8fHww"
             }
         ],
 
@@ -89,7 +89,7 @@ export const restaurantData = [
                 price: 500,
                 category: "Speciality",
                 servedBy: "2-3",
-                imageUrl: "https://source.unsplash.com/400x300/?risotto"
+                imageUrl: "https://plus.unsplash.com/premium_photo-1691911162192-f4a5cd1b7403?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGl6enphfGVufDB8fDB8fHww"
             }
         ]
     },
@@ -112,7 +112,7 @@ export const restaurantData = [
                 price: 200,
                 category: "Veg",
                 servedBy: "2-3",
-                imageUrl: "https://source.unsplash.com/400x300/?paneertikka"
+                imageUrl: "https://plus.unsplash.com/premium_photo-1691911162192-f4a5cd1b7403?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGl6enphfGVufDB8fDB8fHww"
             },
             {
                 name: "Aloo Paratha",
@@ -120,7 +120,7 @@ export const restaurantData = [
                 price: 150,
                 category: "Veg",
                 servedBy: "1-2",
-                imageUrl: "https://source.unsplash.com/400x300/?paratha"
+                imageUrl: "https://plus.unsplash.com/premium_photo-1691911162192-f4a5cd1b7403?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGl6enphfGVufDB8fDB8fHww"
             },
             {
                 name: "Chole Bhature",
@@ -128,7 +128,7 @@ export const restaurantData = [
                 price: 180,
                 category: "Veg",
                 servedBy: "2-3",
-                imageUrl: "https://source.unsplash.com/400x300/?cholebhature"
+                imageUrl: "https://plus.unsplash.com/premium_photo-1691911162192-f4a5cd1b7403?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGl6enphfGVufDB8fDB8fHww"
             }
         ],
 
@@ -139,7 +139,7 @@ export const restaurantData = [
                 price: 350,
                 category: "Non-Veg",
                 servedBy: "2-3",
-                imageUrl: "https://source.unsplash.com/400x300/?butterchicken"
+                imageUrl: "https://plus.unsplash.com/premium_photo-1691911162192-f4a5cd1b7403?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGl6enphfGVufDB8fDB8fHww"
             },
             {
                 name: "Chicken Biryani",
@@ -147,7 +147,7 @@ export const restaurantData = [
                 price: 300,
                 category: "Non-Veg",
                 servedBy: "2-4",
-                imageUrl: "https://source.unsplash.com/400x300/?chickenbiryani"
+                imageUrl: "https://plus.unsplash.com/premium_photo-1691911162192-f4a5cd1b7403?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGl6enphfGVufDB8fDB8fHww"
             },
             {
                 name: "Mutton Rogan Josh",
@@ -155,7 +155,7 @@ export const restaurantData = [
                 price: 400,
                 category: "Non-Veg",
                 servedBy: "2-4",
-                imageUrl: "https://source.unsplash.com/400x300/?muttoncurry"
+                imageUrl: "https://plus.unsplash.com/premium_photo-1691911162192-f4a5cd1b7403?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGl6enphfGVufDB8fDB8fHww"
             }
         ],
 
@@ -206,7 +206,7 @@ export const restaurantData = [
                 price: 180,
                 category: "Veg",
                 servedBy: "2",
-                imageUrl: "https://source.unsplash.com/400x300/?vegstrips"
+                imageUrl: "https://plus.unsplash.com/premium_photo-1691911162192-f4a5cd1b7403?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGl6enphfGVufDB8fDB8fHww"
             },
             {
                 name: "Paneer Zinger Burger",
@@ -214,7 +214,7 @@ export const restaurantData = [
                 price: 220,
                 category: "Veg",
                 servedBy: "1",
-                imageUrl: "https://source.unsplash.com/400x300/?paneerburger"
+                imageUrl: "https://plus.unsplash.com/premium_photo-1691911162192-f4a5cd1b7403?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGl6enphfGVufDB8fDB8fHww"
             },
             {
                 name: "Crispy Veg Wrap",
@@ -222,7 +222,7 @@ export const restaurantData = [
                 price: 200,
                 category: "Veg",
                 servedBy: "1",
-                imageUrl: "https://source.unsplash.com/400x300/?vegwrap"
+                imageUrl: "https://plus.unsplash.com/premium_photo-1691911162192-f4a5cd1b7403?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGl6enphfGVufDB8fDB8fHww"
             }
         ],
 
@@ -233,7 +233,7 @@ export const restaurantData = [
                 price: 220,
                 category: "Non-Veg",
                 servedBy: "1",
-                imageUrl: "https://source.unsplash.com/400x300/?burger"
+                imageUrl: "https://plus.unsplash.com/premium_photo-1691911162192-f4a5cd1b7403?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGl6enphfGVufDB8fDB8fHww"
             },
             {
                 name: "Hot Wings",
@@ -241,7 +241,7 @@ export const restaurantData = [
                 price: 250,
                 category: "Non-Veg",
                 servedBy: "2",
-                imageUrl: "https://source.unsplash.com/400x300/?hotwings"
+                imageUrl: "https://plus.unsplash.com/premium_photo-1691911162192-f4a5cd1b7403?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGl6enphfGVufDB8fDB8fHww"
             },
             {
                 name: "Chicken Popcorn",
@@ -249,7 +249,7 @@ export const restaurantData = [
                 price: 230,
                 category: "Non-Veg",
                 servedBy: "1-2",
-                imageUrl: "https://source.unsplash.com/400x300/?chickenpopcorn"
+                imageUrl: "https://plus.unsplash.com/premium_photo-1691911162192-f4a5cd1b7403?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGl6enphfGVufDB8fDB8fHww"
             }
         ],
 
@@ -296,7 +296,7 @@ export const restaurantData = [
                 price: 280,
                 category: "Veg",
                 servedBy: "2-3",
-                imageUrl: "https://source.unsplash.com/400x300/?paneer"
+                imageUrl: "https://plus.unsplash.com/premium_photo-1691911162192-f4a5cd1b7403?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGl6enphfGVufDB8fDB8fHww"
             },
             {
                 name: "Dal Tadka",
@@ -304,7 +304,7 @@ export const restaurantData = [
                 price: 200,
                 category: "Veg",
                 servedBy: "2-3",
-                imageUrl: "https://source.unsplash.com/400x300/?dal"
+                imageUrl: "https://plus.unsplash.com/premium_photo-1691911162192-f4a5cd1b7403?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGl6enphfGVufDB8fDB8fHww"
             },
             {
                 name: "Veg Biryani",
@@ -312,7 +312,7 @@ export const restaurantData = [
                 price: 250,
                 category: "Veg",
                 servedBy: "2",
-                imageUrl: "https://source.unsplash.com/400x300/?vegbiryani"
+                imageUrl: "https://plus.unsplash.com/premium_photo-1691911162192-f4a5cd1b7403?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGl6enphfGVufDB8fDB8fHww"
             }
         ],
         nonVegMenu: [
@@ -322,7 +322,7 @@ export const restaurantData = [
                 price: 350,
                 category: "Non-Veg",
                 servedBy: "2-3",
-                imageUrl: "https://source.unsplash.com/400x300/?tandoorichicken"
+                imageUrl: "https://plus.unsplash.com/premium_photo-1691911162192-f4a5cd1b7403?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGl6enphfGVufDB8fDB8fHww"
             },
             {
                 name: "Mutton Korma",
@@ -330,7 +330,7 @@ export const restaurantData = [
                 price: 400,
                 category: "Non-Veg",
                 servedBy: "2-3",
-                imageUrl: "https://source.unsplash.com/400x300/?muttonkorma"
+                imageUrl: "https://plus.unsplash.com/premium_photo-1691911162192-f4a5cd1b7403?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGl6enphfGVufDB8fDB8fHww"
             },
             {
                 name: "Chicken Tikka",
@@ -338,7 +338,7 @@ export const restaurantData = [
                 price: 320,
                 category: "Non-Veg",
                 servedBy: "2",
-                imageUrl: "https://source.unsplash.com/400x300/?chickentikka"
+                imageUrl: "https://plus.unsplash.com/premium_photo-1691911162192-f4a5cd1b7403?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGl6enphfGVufDB8fDB8fHww"
             }
         ],
         drinks: [
@@ -384,7 +384,7 @@ export const restaurantData = [
                 price: 300,
                 category: "Veg",
                 servedBy: "1-2",
-                imageUrl: "https://source.unsplash.com/400x300/?sushiroll"
+                imageUrl: "https://plus.unsplash.com/premium_photo-1691911162192-f4a5cd1b7403?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGl6enphfGVufDB8fDB8fHww"
             },
             {
                 name: "Edamame",
@@ -392,7 +392,7 @@ export const restaurantData = [
                 price: 200,
                 category: "Veg",
                 servedBy: "1",
-                imageUrl: "https://source.unsplash.com/400x300/?edamame"
+                imageUrl: "https://plus.unsplash.com/premium_photo-1691911162192-f4a5cd1b7403?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGl6enphfGVufDB8fDB8fHww"
             },
             {
                 name: "Vegetable Tempura",
@@ -400,7 +400,7 @@ export const restaurantData = [
                 price: 280,
                 category: "Veg",
                 servedBy: "2-3",
-                imageUrl: "https://source.unsplash.com/400x300/?tempura"
+                imageUrl: "https://plus.unsplash.com/premium_photo-1691911162192-f4a5cd1b7403?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGl6enphfGVufDB8fDB8fHww"
             }
         ],
         nonVegMenu: [
@@ -410,7 +410,7 @@ export const restaurantData = [
                 price: 400,
                 category: "Non-Veg",
                 servedBy: "1-2",
-                imageUrl: "https://source.unsplash.com/400x300/?salmon"
+                imageUrl: "https://plus.unsplash.com/premium_photo-1691911162192-f4a5cd1b7403?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGl6enphfGVufDB8fDB8fHww"
             },
             {
                 name: "Tuna Sashimi",
@@ -418,7 +418,7 @@ export const restaurantData = [
                 price: 450,
                 category: "Non-Veg",
                 servedBy: "1",
-                imageUrl: "https://source.unsplash.com/400x300/?sashimi"
+                imageUrl: "https://plus.unsplash.com/premium_photo-1691911162192-f4a5cd1b7403?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGl6enphfGVufDB8fDB8fHww"
             },
             {
                 name: "Shrimp Tempura",
@@ -426,7 +426,7 @@ export const restaurantData = [
                 price: 350,
                 category: "Non-Veg",
                 servedBy: "2",
-                imageUrl: "https://source.unsplash.com/400x300/?shrimp"
+                imageUrl: "https://plus.unsplash.com/premium_photo-1691911162192-f4a5cd1b7403?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGl6enphfGVufDB8fDB8fHww"
             }
         ],
         drinks: [
@@ -472,7 +472,7 @@ export const restaurantData = [
                 price: 280,
                 category: "Veg",
                 servedBy: "2-3",
-                imageUrl: "https://source.unsplash.com/400x300/?vegbiryani"
+                imageUrl: "https://plus.unsplash.com/premium_photo-1691911162192-f4a5cd1b7403?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGl6enphfGVufDB8fDB8fHww"
             },
             {
                 name: "Paneer Biryani",
@@ -480,7 +480,7 @@ export const restaurantData = [
                 price: 320,
                 category: "Veg",
                 servedBy: "2-3",
-                imageUrl: "https://source.unsplash.com/400x300/?paneerbiryani"
+                imageUrl: "https://plus.unsplash.com/premium_photo-1691911162192-f4a5cd1b7403?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGl6enphfGVufDB8fDB8fHww"
             }
         ],
         nonVegMenu: [
@@ -490,7 +490,7 @@ export const restaurantData = [
                 price: 350,
                 category: "Non-Veg",
                 servedBy: "2-4",
-                imageUrl: "https://source.unsplash.com/400x300/?chickenbiryani"
+                imageUrl: "https://plus.unsplash.com/premium_photo-1691911162192-f4a5cd1b7403?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGl6enphfGVufDB8fDB8fHww"
             },
             {
                 name: "Mutton Biryani",
@@ -498,7 +498,7 @@ export const restaurantData = [
                 price: 450,
                 category: "Non-Veg",
                 servedBy: "2-4",
-                imageUrl: "https://source.unsplash.com/400x300/?muttonbiryani"
+                imageUrl: "https://plus.unsplash.com/premium_photo-1691911162192-f4a5cd1b7403?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGl6enphfGVufDB8fDB8fHww"
             }
         ],
         drinks: [
@@ -536,7 +536,7 @@ export const restaurantData = [
                 price: 250,
                 category: "Veg",
                 servedBy: "1-2",
-                imageUrl: "https://source.unsplash.com/400x300/?vegbiryani"
+                imageUrl: "https://plus.unsplash.com/premium_photo-1691911162192-f4a5cd1b7403?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGl6enphfGVufDB8fDB8fHww"
             },
             {
                 name: "Paneer Biryani",
@@ -544,7 +544,7 @@ export const restaurantData = [
                 price: 300,
                 category: "Veg",
                 servedBy: "1-2",
-                imageUrl: "https://source.unsplash.com/400x300/?paneerbiryani"
+                imageUrl: "https://plus.unsplash.com/premium_photo-1691911162192-f4a5cd1b7403?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGl6enphfGVufDB8fDB8fHww"
             }
         ],
         nonVegMenu: [
@@ -554,7 +554,7 @@ export const restaurantData = [
                 price: 350,
                 category: "Non-Veg",
                 servedBy: "2-3",
-                imageUrl: "https://source.unsplash.com/400x300/?chickenbiryani"
+                imageUrl: "https://plus.unsplash.com/premium_photo-1691911162192-f4a5cd1b7403?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGl6enphfGVufDB8fDB8fHww"
             },
             {
                 name: "Mutton Biryani",
@@ -562,7 +562,7 @@ export const restaurantData = [
                 price: 450,
                 category: "Non-Veg",
                 servedBy: "2-3",
-                imageUrl: "https://source.unsplash.com/400x300/?muttonbiryani"
+                imageUrl: "https://plus.unsplash.com/premium_photo-1691911162192-f4a5cd1b7403?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGl6enphfGVufDB8fDB8fHww"
             }
         ],
         drinks: [

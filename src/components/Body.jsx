@@ -35,7 +35,7 @@ const Body = () => {
             </div>
 
             {/* Restaurant Grid */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
                 {filteredRestaurants.length > 0 ? (
                     filteredRestaurants.map((restaurant) => (
                         <RestaurantCard key={restaurant.id} restaurant={restaurant} />
@@ -44,6 +44,7 @@ const Body = () => {
                     <p className="text-center text-gray-500 col-span-4">No restaurants found.</p>
                 )}
             </div>
+
         </div>
     );
 };

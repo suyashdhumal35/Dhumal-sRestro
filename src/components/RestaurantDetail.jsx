@@ -37,7 +37,7 @@ const RestaurantDetail = () => {
             {/* Menu Section */}
             {menuCategories?.map((category, index) => (
                 category?.items?.length > 0 && (
-                    <div key={index} className="mt-8">
+                    <div key={index} className="mt-4">
                         {/* Clickable Category Title */}
                         <h2 
                             className="text-2xl font-semibold mb-4 cursor-pointer flex justify-between items-center bg-gray-100 p-3 rounded-lg shadow-md"
@@ -49,9 +49,9 @@ const RestaurantDetail = () => {
 
                         {/* Items List (Visible only when expanded) */}
                         {expandedCategory === category.title && (
-                            <div className="flex flex-col gap-6">
+                            <div className="flex flex-col gap-2">
                                 {category?.items?.map((item, idx) => (
-                                    <div key={idx} className="flex items-center justify-between bg-white p-4 shadow-md rounded-lg">
+                                    <div key={idx} className="flex items-center justify-between bg-white p-2 shadow-md rounded-lg">
                                         {/* Item Info */}
                                         <div className="flex-1 pr-4">
                                             <h3 className="text-lg font-semibold">{item?.name}</h3>
@@ -59,12 +59,19 @@ const RestaurantDetail = () => {
                                             <p className="text-orange-500 font-bold mt-2">₹{item?.price}</p>
                                         </div>
 
-                                        {/* Item Image */}
-                                        <img
-                                            src={item?.imageUrl}
-                                            alt={item?.name}
-                                            className="w-32 h-24 object-cover rounded-md"
-                                        />
+                                        {/* Item Image with Add Button */}
+                                        <div className="relative w-36 h-24">
+                                            <img
+                                                src={item?.imageUrl}
+                                                alt={item?.name}
+                                                className="w-full h-full object-cover rounded-md"
+                                            />
+                                            <button
+                                                className="absolute bottom-1 translate-y-2 right-11 bg-green-500 text-white text-sm px-4 py-1 rounded-md shadow-md hover:bg-green-600"
+                                            >
+                                                Add
+                                            </button>
+                                        </div>
                                     </div>
                                 ))}
                             </div>

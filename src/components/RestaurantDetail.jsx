@@ -1,4 +1,3 @@
-// RestaurantDetail.js
 import { useParams } from 'react-router-dom';
 import { useState } from 'react';
 import { restaurantData } from '../constants/data';
@@ -36,7 +35,11 @@ const RestaurantDetail = () => {
   return (
     <div className="max-w-4xl mx-auto p-6">
       {/* Restaurant Header */}
-      <img src={restaurant?.imageUrl} alt={restaurant?.name} className="w-full h-72 object-cover rounded-lg shadow-md" />
+      <img
+        src={restaurant?.imageUrl}
+        alt={restaurant?.name}
+        className="w-full h-72 object-cover rounded-lg shadow-md"
+      />
       <h1 className="text-3xl font-bold mt-4">{restaurant?.name}</h1>
       <p className="text-gray-600">{restaurant?.cuisines.join(', ')}</p>
       <p className="text-green-500 font-bold mt-2">{restaurant?.costForTwoMessage}</p>

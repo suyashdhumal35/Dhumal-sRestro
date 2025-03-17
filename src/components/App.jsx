@@ -2,11 +2,15 @@ import { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import { FaShoppingCart } from "react-icons/fa";
 import pLogo from "../assets/foodlogo.svg";
+import { useSelector } from "react-redux"; // Import useSelector for accessing Redux state
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [isOnline, setIsOnline] = useState(navigator.onLine); // Detect initial status
+
+  // Use Redux to get the number of items in the cart
+  const cartItemsCount = useSelector((state) => state.cart.items.length);
 
   useEffect(() => {
     const handleOnline = () => setIsOnline(true);
@@ -68,17 +72,30 @@ function App() {
             Contact Us
           </NavLink>
 
+          {/* Cart Link with item count */}
           <NavLink
             to="/cart"
             className={({ isActive }) =>
-              isActive ? "text-orange-600 font-bold flex items-center" : "text-gray-700 hover:text-orange-600 flex items-center"
+              isActive
+                ? "text-orange-600 font-bold flex items-center"
+                : "text-gray-700 hover:text-orange-600 flex items-center"
             }
           >
-            <FaShoppingCart className="mr-1" /> Cart
+            <FaShoppingCart className="mr-1" />
+            Cart
+            {cartItemsCount > 0 && (
+              <span className="ml-2 bg-red-600 text-white text-xs rounded-full px-2 py-1">
+                {cartItemsCount}
+              </span>
+            )}
           </NavLink>
 
           {/* Online/Offline Indicator */}
-          <span className={`px-3 py-1 rounded-full text-sm font-semibold ${isOnline ? "bg-green-500 text-white" : "bg-red-500 text-white"}`}>
+          <span
+            className={`px-3 py-1 rounded-full text-sm font-semibold ${
+              isOnline ? "bg-green-500 text-white" : "bg-red-500 text-white"
+            }`}
+          >
             {isOnline ? "Online" : "Offline"}
           </span>
 
@@ -93,8 +110,19 @@ function App() {
         {/* Hamburger Icon for Mobile */}
         <div className="md:hidden flex items-center">
           <button onClick={handleMenuToggle} className="text-gray-700 focus:outline-none">
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-6 w-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M4 6h16M4 12h16M4 18h16"
+              />
             </svg>
           </button>
         </div>
@@ -130,17 +158,30 @@ function App() {
             Contact Us
           </NavLink>
 
+          {/* Cart Link with item count */}
           <NavLink
             to="/cart"
             className={({ isActive }) =>
-              isActive ? "text-orange-600 font-bold flex items-center" : "text-gray-700 hover:text-orange-600 flex items-center"
+              isActive
+                ? "text-orange-600 font-bold flex items-center"
+                : "text-gray-700 hover:text-orange-600 flex items-center"
             }
           >
-            <FaShoppingCart className="mr-1" /> Cart
+            <FaShoppingCart className="mr-1" />
+            Cart
+            {cartItemsCount > 0 && (
+              <span className="ml-2 bg-red-600 text-white text-xs rounded-full px-2 py-1">
+                {cartItemsCount}
+              </span>
+            )}
           </NavLink>
 
           {/* Online/Offline Indicator */}
-          <span className={`px-3 py-1 rounded-full text-sm font-semibold ${isOnline ? "bg-green-500 text-white" : "bg-red-500 text-white"}`}>
+          <span
+            className={`px-3 py-1 rounded-full text-sm font-semibold ${
+              isOnline ? "bg-green-500 text-white" : "bg-red-500 text-white"
+            }`}
+          >
             {isOnline ? "Online" : "Offline"}
           </span>
 

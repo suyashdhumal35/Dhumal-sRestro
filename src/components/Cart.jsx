@@ -1,8 +1,19 @@
-// Cart.js
-import { useSelector } from 'react-redux';
+import { useSelector, useDispatch } from 'react-redux';
+import { removeFromCart, clearCart } from '../redux/cartSlice';
 
 const Cart = () => {
+  const dispatch = useDispatch();
   const cartItems = useSelector((state) => state.cart.items);
+
+  // Remove a single item from the cart
+  const handleRemoveFromCart = (item) => {
+    dispatch(removeFromCart(item)); // Dispatch the action to remove item
+  };
+
+  // Clear all items from the cart
+  const handleClearCart = () => {
+    dispatch(clearCart()); // Dispatch the action to clear the cart
+  };
 
   if (cartItems.length === 0) {
     return (
@@ -29,8 +40,26 @@ const Cart = () => {
               alt={item?.name}
               className="w-24 h-24 object-cover rounded-md"
             />
+
+            {/* Remove Button */}
+            <button
+              onClick={() => handleRemoveFromCart(item)} // Remove item from the cart
+              className="ml-4 bg-red-500 text-white text-sm px-4 py-1 rounded-md shadow-md hover:bg-red-600"
+            >
+              Remove
+            </button>
           </div>
         ))}
+      </div>
+
+      {/* Clear Cart Button */}
+      <div className="mt-6 text-center">
+        <button
+          onClick={handleClearCart} // Clear all items from the cart
+          className="bg-blue-500 text-white px-6 py-2 rounded-md shadow-md hover:bg-blue-600"
+        >
+          Clear Cart
+        </button>
       </div>
     </div>
   );

@@ -8,7 +8,7 @@ import App from "./components/App.jsx";
 import Footer from "./components/Footer.jsx";
 import Sponsors from "./components/Sponsors.jsx";
 import AppRoute from "./components/AppRoute.jsx";
-import { AuthProvider } from "./contexts/useAuth .jsx";
+import { AuthProvider } from "./contexts/useAuth .jsx"; 
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>

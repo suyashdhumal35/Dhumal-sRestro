@@ -3,14 +3,17 @@ import { NavLink } from "react-router-dom";
 import { FaShoppingCart } from "react-icons/fa";
 import pLogo from "../assets/foodlogo.svg";
 import { useSelector } from "react-redux"; // Import useSelector for accessing Redux state
+import { useAuth } from "../contexts/useAuth ";
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [isOnline, setIsOnline] = useState(navigator.onLine); // Detect initial status
 
-  // Use Redux to get the number of items in the cart
+  // Get cart items count from Redux store
   const cartItemsCount = useSelector((state) => state.cart.items.length);
+
+  // Access the authentication state from context
+  const { isLoggedIn, user, login, logout } = useAuth();
 
   useEffect(() => {
     const handleOnline = () => setIsOnline(true);
@@ -30,7 +33,14 @@ function App() {
   };
 
   const handleAuthToggle = () => {
-    setIsLoggedIn(!isLoggedIn);
+    if (isLoggedIn) {
+      logout();
+    } else {
+      const username = prompt("Enter your username:");
+      if (username) {
+        login(username);
+      }
+    }
   };
 
   return (
@@ -99,12 +109,25 @@ function App() {
             {isOnline ? "Online" : "Offline"}
           </span>
 
-          <button
-            onClick={handleAuthToggle}
-            className="bg-orange-500 text-white py-2 px-6 rounded-full hover:bg-orange-600 focus:outline-none w-32 text-base"
-          >
-            {isLoggedIn ? "Logout" : "Login"}
-          </button>
+          {/* User Info and Login/Logout */}
+          {isLoggedIn ? (
+            <span className="text-gray-700">
+              Hello, {user.username}{" "}
+              <button
+                onClick={handleAuthToggle}
+                className="bg-orange-500 text-white py-2 px-6 rounded-full hover:bg-orange-600 focus:outline-none"
+              >
+                Logout
+              </button>
+            </span>
+          ) : (
+            <button
+              onClick={handleAuthToggle}
+              className="bg-orange-500 text-white py-2 px-6 rounded-full hover:bg-orange-600 focus:outline-none"
+            >
+              Login
+            </button>
+          )}
         </nav>
 
         {/* Hamburger Icon for Mobile */}
@@ -185,12 +208,25 @@ function App() {
             {isOnline ? "Online" : "Offline"}
           </span>
 
-          <button
-            onClick={handleAuthToggle}
-            className="bg-orange-500 text-white py-2 px-6 rounded-full hover:bg-orange-600 focus:outline-none"
-          >
-            {isLoggedIn ? "Logout" : "Login"}
-          </button>
+          {/* User Info and Login/Logout */}
+          {isLoggedIn ? (
+            <span className="text-gray-700">
+              Hello, {user.username}{" "}
+              <button
+                onClick={handleAuthToggle}
+                className="bg-orange-500 text-white py-2 px-6 rounded-full hover:bg-orange-600 focus:outline-none"
+              >
+                Logout
+              </button>
+            </span>
+          ) : (
+            <button
+              onClick={handleAuthToggle}
+              className="bg-orange-500 text-white py-2 px-6 rounded-full hover:bg-orange-600 focus:outline-none"
+            >
+              Login
+            </button>
+          )}
         </nav>
       </div>
     </header>
